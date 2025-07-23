@@ -1,30 +1,32 @@
-# 🌿 Plant Species and Fertilizer Recommendation Web App
+🌿 Plant Species and Fertilizer Recommendation Web App
 
 This Streamlit web app uses traditional machine learning to classify plant species from leaf images and recommend fertilizer needs — all without deep learning or transfer learning!
 
 Unlike typical black-box AI models, our app leverages handcrafted features such as color histograms, Local Binary Patterns (LBP), and Histogram of Oriented Gradients (HOG) for interpretable, transparent predictions.
 
 
-## 🔍 Features
+🔍 Features
 
-- 📸 Upload a leaf image to receive:
+  - 📸 Upload a leaf image to receive:
   - ✅ Predicted plant species (Tomato, Potato, Bell Pepper)
   - 🌾 Fertilizer need level (High, Moderate, Low)
-- 📊 Get model interpretability via:
+  - 📊 Get model interpretability via:
   - HOG visualization of important leaf textures
   - Color-based fertilizer logic based on leaf greenness
-- 🔬 Built using:
+
+🔬 Built using:
   - Support Vector Machines (SVM)
   - Random Forest Classifiers
+
 - ❌ No deep learning or transfer learning — purely classical machine learning!
 
 
 
-## ⚙️ Installation
+⚙️ Installation
 
 1. Clone the repository:
 
-```bash
+'''bash
 git clone https://github.com/your-username/plant-classifier-app.git
 cd plant-classifier-app
 
