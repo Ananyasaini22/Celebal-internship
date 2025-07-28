@@ -1,0 +1,9 @@
+streamlit
+transformers
+scikit-learn
+pandas
+transformers>=4.31.0
+torch>=2.0.0
+streamlit>=1.25.0
+sentencepiece
+tf-keras  
